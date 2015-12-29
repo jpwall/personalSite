@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+}
+
+#container {
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infoBox {
+    width: 51%;
+    height: auto;
+    position: absolute;
+    top: 8%;
+    padding: 2%;
+    background-color: #888;
+}
+
+#navigation {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+#navBtn {
+    text-align: center;
+    width: 32%;
+    height: 6%;
+    float: left;
+    margin-left: 1%;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+#mainText {
+    font-size: 17px;
+}
+
+#titleText {
+    font-size: 40px;
+}
+
+#titleTextSmall {
+    font-size: 30px;
+}
+
+#projectTitleGreen {
+    font-size: 30px;
+    color: #006702;
+    margin-top: 30px;
+}
+
+#projectTitleBlue {
+    font-size: 30px;
+    color: #003b67;
+    margin-top: 30px;
+}
+
+#projectTitleRed {
+    font-size: 30px;
+    color: #920000;
+    margin-top: 30px;
+}
+
+#projectTitlePurple {
+    font-size: 30px;
+    color: #730092;
+    margin-top: 30px;
+}
+
+#key {
+    height: auto;
+    width: 25%;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/*#projects {
+    margin-top: 30px;
+}
+
+#contactBox {
+    
+}
+
+#github {
+    position: absolute;
+}*/
+
+#selection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 15%;
+    background-color: blue;
+}
