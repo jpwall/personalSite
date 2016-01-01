@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 html, body {
     height: 100%;
 }
@@ -14,6 +15,7 @@ body {
 }
 
 #infoBox {
+    font-family: 'Droid Sans', sans-serif;
     width: 51%;
     height: auto;
     position: absolute;
@@ -24,6 +26,7 @@ body {
 }
 
 #navBtn {
+    font-family: 'Droid Sans', sans-serif;
     text-align: center;
     width: 32%;
     height: 5%;
@@ -78,18 +81,6 @@ body {
     padding: 5px;
     border-radius: 2px;
 }
-
-/*#projects {
-    margin-top: 30px;
-}
-
-#contactBox {
-    
-}
-
-#github {
-    position: absolute;
-}*/
 
 #selection {
     margin-left: auto;
