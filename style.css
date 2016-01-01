@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color: #2d3340;
+}
+
 #container {
     width: 55%;
     height: auto;
@@ -15,13 +19,8 @@ html, body {
     position: absolute;
     top: 8%;
     padding: 2%;
-    background-color: #888;
-}
-
-#navigation {
-    width: 100%;
-    height: auto;
-    background-color: blue;
+    background-color: #c2c2c2;
+    border-radius: 4px;
 }
 
 #navBtn {
@@ -30,8 +29,10 @@ html, body {
     height: 5%;
     float: left;
     margin-left: 1%;
-    background-color: yellow;
+    background-color: #7a0000;
     font-size: 30px;
+    color: #d2d2d2;
+    border-radius: 2px;
 }
 
 #mainText {
@@ -75,6 +76,7 @@ html, body {
     width: 35%;
     border: 2px solid black;
     padding: 5px;
+    border-radius: 2px;
 }
 
 /*#projects {
@@ -92,7 +94,8 @@ html, body {
 #selection {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
     height: 15%;
-    background-color: blue;
+    background-color: #d8be8b;
+    border-radius: 2px;
 }
