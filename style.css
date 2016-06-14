@@ -99,3 +99,13 @@ body {
     background-color: #d8be8b;
     border-radius: 2px;
 }
+
+@media (max-width: 1200px) {
+    #container {
+	width: 90%;
+    }
+
+    #buttonContainer {
+	width: 90%;
+    }
+}
