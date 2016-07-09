@@ -14,6 +14,9 @@ body {
 #mainContainer {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -23,8 +26,25 @@ body {
 
 #buttonContainer {
     width: 65%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 0px 0px 5px 5px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+#navBtn {
+    width: 33%;
+    font-size: 23px;
+    height: auto;
+    color: black;
+    padding: 15px;
+    text-align: center;
 }
 
 #greetingBox {
@@ -34,6 +54,7 @@ body {
     height: 200px;
     color: white;
     background-color: black;
+    border-radius: 5px;
     opacity: 0.8;
     flex-flow: column;
     -webkit-align-items: center;
@@ -50,7 +71,7 @@ body {
 #hiddenContainer {
     width: 100%;
     height: 100%;
-    background-color: purple;
+    background-color: black;
     position: absolute;
     top: 0px;
     left: 0px;
