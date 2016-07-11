@@ -5,6 +5,13 @@ body {
     font-family: 'Droid Sans', sans-serif;
 }
 
+#siteLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #d2d2d2;
+}
+
 #container {
     width: 55.5%;
     margin-top: 19px;
