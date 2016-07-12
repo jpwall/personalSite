@@ -107,6 +107,30 @@ body {
     border-radius: 2px;
 }
 
+#contactContainer {
+    position: absolute;
+    bottom: 0;
+    width: 99.6%;
+}
+
+#contactBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex: row;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    background-color: #d8be8b;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
 @media (max-width: 1200px) {
     #container {
 	width: 90%;
