@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Montserrat');
 body {
-    background: url(../../../media/images/website/desk.jpg) no-repeat center center fixed;
+    background: url(images/desk.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,14 +10,18 @@ body {
     margin-bottom: 0px;
     width: 100%;
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#siteLink {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    color: purple;
+.titleText {
+    font-size: 50px;
+    text-align: center;
+}
+
+.normalText {
+    font-size: 22px;
+    text-align: center;
+    color: white;
 }
 
 #mainContainer {
@@ -28,16 +33,13 @@ body {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 #buttonContainer {
     width: 65%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
+    background-color: black;
     opacity: 0.8;
     border-radius: 0px 0px 5px 5px;
     display: -webkit-flex;
@@ -47,12 +49,13 @@ body {
 }
 
 #navBtn {
-    width: 33%;
+    width: 50%;
     font-size: 23px;
     height: auto;
-    color: black;
+    color: white;
     padding: 15px;
     text-align: center;
+    //font-family: 'Montserrat', sans-serif;
 }
 
 #greetingBox {
@@ -64,6 +67,8 @@ body {
     background-color: black;
     border-radius: 5px;
     opacity: 0.8;
+    margin-top: auto;
+    margin-bottom: auto;
     flex-flow: column;
     -webkit-align-items: center;
     align-items: center;
@@ -76,19 +81,53 @@ body {
     text-align: center;
 }
 
-#hiddenContainer {
+.hiddenContainer {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background: black;
+    color: white;
     position: absolute;
     top: 0px;
     left: 0px;
     opacity: 0.0;
     z-index: -1;
+    padding: 3% 18% 5% 18%;
 }
 
-#greetingBox:hover + #hiddenContainer {
-    opacity: 0.5;
+#projectBox {
+    width: 65%;
+    min-height: 290px;
+    overflow: hidden;
+}
+
+#aboutBox {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    opacity: 0.83;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#navBtn:hover {
+    color: #FF5555;
+}
+
+#greetingBox:hover + .hiddenContainer {
+    opacity: 0.95;
+    color: white;
+    transition: 0.2s linear;
+}
+
+#greetingBox:hover + #navBtn {
+    color: red;
 }
 
 #greetingBox:hover {
