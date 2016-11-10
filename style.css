@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Montserrat');
+a {
+    color: #FF5555;
+    text-decoration: none;
+}
+
 body {
     background: url(images/desk.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -99,20 +104,18 @@ body {
 
 #projectBox {
     width: 65%;
-    min-height: 290px;
+    max-height: 290px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #aboutBox {
-    display: flex;
     width: 40%;
     height: 100%;
     color: white;
     background-color: black;
     opacity: 0.83;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
     padding: 10px;
 }
 
