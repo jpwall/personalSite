@@ -19,13 +19,14 @@ body {
 }
 
 .titleText {
-    font-size: 50px;
+    //font-size: 50px;
+    font-size: 4.8vh;
     text-align: center;
 }
 
 .normalText {
-    font-size: 22px;
-    //font-size: 2.3vh;
+    //font-size: 22px;
+    font-size: 2.3vh;
     text-align: center;
     color: white;
 }
@@ -56,7 +57,7 @@ body {
 
 #navBtn {
     width: 50%;
-    font-size: 23px;
+    font-size: 2.8vh;
     height: auto;
     color: white;
     padding: 15px;
@@ -101,6 +102,10 @@ body {
     opacity: 0.0;
     z-index: -1;
     padding: 3% 18% 5% 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #projectBox {
@@ -109,6 +114,7 @@ body {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 22px;
 }
 
 #aboutBox {
