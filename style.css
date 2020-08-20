@@ -55,6 +55,36 @@ body {
     justify-content: space-around;
 }
 
+#contactContainer {
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border-radius: 5px 5px 0px 0px;
+    display: -webkit-flex;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactItem {
+    font-size: 2.1vh;
+    padding-bottom: 2px;
+}
+
+#resumeContainer {
+    width: 60%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    color: white;
+    font-size: 2.4vh;
+    text-align: center;
+}
+
 #navBtn {
     width: 50%;
     font-size: 2.8vh;
@@ -143,4 +173,29 @@ body {
 
 #greetingBox:hover {
     opacity: 0.0;
+}
+
+.projectContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    background-color: #333333;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    margin-top: 60px;
+    font-size: 3.5vh;
+}
+
+.projectDescription {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.3vh;
 }
