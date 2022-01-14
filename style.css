@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Montserrat');
+
+html {
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 415px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    html {
+        font-size: 22px;
+    }
+}
+
 a {
     color: #FF5555;
     text-decoration: none;
@@ -19,14 +42,12 @@ body {
 }
 
 .titleText {
-    //font-size: 50px;
-    font-size: 4.8vh;
+    font-size: 2rem;
     text-align: center;
 }
 
 .normalText {
-    //font-size: 22px;
-    font-size: 2.3vh;
+    font-size: 1rem;
     text-align: center;
     color: white;
 }
@@ -44,7 +65,7 @@ body {
 }
 
 #buttonContainer {
-    width: 65%;
+    width: 100vw;
     height: auto;
     background-color: black;
     opacity: 0.8;
@@ -71,7 +92,7 @@ body {
 }
 
 #contactItem {
-    font-size: 2.1vh;
+    font-size: 1rem;
     padding-bottom: 2px;
 }
 
@@ -81,13 +102,13 @@ body {
     box-sizing: border-box;
     padding: 5px;
     color: white;
-    font-size: 2.4vh;
+    font-size: 1.15rem;
     text-align: center;
 }
 
 #navBtn {
     width: 50%;
-    font-size: 2.8vh;
+    font-size: 1.4rem;
     height: auto;
     color: white;
     padding: 15px;
