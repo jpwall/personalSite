@@ -22,6 +22,12 @@ html {
     }
 }
 
+@media only screen and (min-width: 2400px) {
+    html {
+        font-size: 31px;
+    }
+}
+
 a {
     color: #FF5555;
     text-decoration: none;
@@ -113,7 +119,6 @@ body {
     color: white;
     padding: 15px;
     text-align: center;
-    //font-family: 'Montserrat', sans-serif;
 }
 
 #greetingBox {
@@ -155,7 +160,7 @@ body {
     padding: 3% 18% 5% 18%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
